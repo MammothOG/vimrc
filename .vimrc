@@ -42,7 +42,7 @@ set expandtab
 set noshiftround
 
 " Mouse whell
-set mouse=4
+set mouse=a
 
 " Cursor motion
 set scrolloff=3
@@ -88,7 +88,7 @@ vnoremap <F1> :set invfullscreen<CR>
 map <leader>q gqip
 
 " Visualize tabs and newlines
-set listchars=tab:Î
+set listchars=tab:ÃŽ
 s to enable by default:
 " set list " To enable by default
 " Or use your leader key + l to toggle on/off
