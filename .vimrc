@@ -75,7 +75,7 @@ set incsearch
 set ignorecase
 set smartcase
 set showmatch
-map <leader><space> :let @/=''<cr> " clear search
+" map <leader><space> :let @/=''<cr> " clear search
 
 " Remap help key.
 inoremap <F1> <ESC>:set invfullscreen<CR>a
@@ -84,15 +84,8 @@ vnoremap <F1> :set invfullscreen<CR>
 
 " Textmate holdouts
 
-" Formatting
-map <leader>q gqip
-
-" Visualize tabs and newlines
-set listchars=tab:Î
-" s to enable by default:
-" set list " To enable by default
-" Or use your leader key + l to toggle on/off
-map <leader>l :set list!<CR> " Toggle tabs and EOL
+" Formatting para
+" map <leader>q gqip
 
 " split below by default
 set splitbelow
