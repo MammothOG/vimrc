@@ -104,7 +104,13 @@ let g:netrw_winsize=85
 let g:netrw_liststyle=3     " tree view
 let g:netrw_list_hide=netrw_gitignore#Hide()
 
-" get out .swp file from current dir
+" surround selection
+xnoremap ' di''<ESC>P
+xnoremap ( di()<ESC>P
+xnoremap { di{}<ESC>P
+xnoremap [ di[]<ESC>P
+
+" move .swp file from current dir
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
